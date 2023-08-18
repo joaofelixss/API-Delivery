@@ -1,1 +1,9 @@
-<h1>Aqui é o contato</h1>
+@extends('layouts.main')
+
+@section('title',"Donut's")
+
+@section('content')
+
+<h1>Seja muito bem vindo. Cliente {{ $id }}</h1>
+
+@endsection

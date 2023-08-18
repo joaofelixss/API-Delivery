@@ -21,18 +21,18 @@
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="collapse navbar-collapse" id="navbar">
             <a href="/" class="navbar-brand">
-              <img src="/img/hdcevents_logo.svg" alt="HDC Events">
+              <img src="/img/logo.png" alt="Donut's">
             </a>
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a href="/" class="nav-link">Eventos</a>
+                <a href="/" class="nav-link">Lojas</a>
               </li>
               <li class="nav-item">
-                <a href="/events/create" class="nav-link">Criar Eventos</a>
+                <a href="/donuts/create" class="nav-link">Criar-Loja</a>
               </li>
               @auth
               <li class="nav-item">
-                <a href="/dashboard" class="nav-link">Meus eventos</a>
+                <a href="/dashboard" class="nav-link">Minha Loja</a>
               </li>
               <li class="nav-item">
                 <form action="/logout" method="POST">
@@ -69,7 +69,7 @@
         </div>
       </main>
       <footer>
-        <p>HDC Events &copy; 2020</p>
+        <p>Donut's &copy; 2023</p>
       </footer>
       <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
     </body>
