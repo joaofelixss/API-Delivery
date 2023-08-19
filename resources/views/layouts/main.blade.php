@@ -17,24 +17,24 @@
         <script src="/js/scripts.js"></script>
     </head>
     <body>
-      <header>
+      <header class="d-flex justify-content-center m-3">
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="collapse navbar-collapse" id="navbar">
             <a href="/" class="navbar-brand">
               <img src="/img/logo.png" alt="Donut's">
             </a>
             <ul class="navbar-nav">
-              <li class="nav-item">
+              <li class="nav-item m-3">
                 <a href="/" class="nav-link">Lojas</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item m-3">
                 <a href="/donuts/create" class="nav-link">Criar-Loja</a>
               </li>
               @auth
-              <li class="nav-item">
+              <li class="nav-item m-3">
                 <a href="/dashboard" class="nav-link">Minha Loja</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item m-3">
                 <form action="/logout" method="POST">
                   @csrf
                   <a href="/logout" 
@@ -47,10 +47,10 @@
               </li>
               @endauth
               @guest
-              <li class="nav-item">
+              <li class="nav-item m-3">
                 <a href="/login" class="nav-link">Entrar</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item m-3">
                 <a href="/register" class="nav-link">Cadastrar</a>
               </li>
               @endguest
