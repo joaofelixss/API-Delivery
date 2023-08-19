@@ -1,11 +1,10 @@
 <?php
 
+use App\Http\Controllers\DonutController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [DonutController::class, 'index']);
 
-Route::get('/contato/{id}', function ($id) {
+Route::get('/contato/{id?}', function ($id = null) {
     return view('contato', ['id'=> $id]);
 });

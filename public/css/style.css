@@ -1,1 +1,6 @@
-
+.lojas {
+    background-image: url("/img/delivery.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
